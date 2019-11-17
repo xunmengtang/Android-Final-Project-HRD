@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/top">
+        <item android:title="Account information"
+            android:icon="@drawable/ic_icons_dark_user"
+            android:id="@+id/btnEditAccount"/>
+        <item android:id="@+id/btnChangePass"
+            android:icon="@drawable/ic_password"
+            android:title="Change Password"/>
+        <item android:id="@+id/btnResetPass"
+            android:icon="@drawable/ic_forgot"
+            android:title="Reset Password"/>
+    </group>
+    <group android:id="@+id/middle">
+        <item android:title="Feature"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:id="@+id/btnFeature"/>
+    </group>
+    <group android:id="@+id/bottom">
+            <item
+                android:title="About"
+                android:icon="@drawable/ic_help_outline_black_24dp"
+                android:id="@+id/btnAboutUs"/>
+            <item
+                android:title="Sign Out"
+                android:icon="@drawable/ic_sign_out_option"
+                android:id="@+id/btnSignOut"/>
+    </group>
+</menu>

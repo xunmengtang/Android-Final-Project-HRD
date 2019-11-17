@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.reaksmeyarun.coffee">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.main.CreateTableActivity"/>
+        <activity
+            android:name=".ui.splash_screen.SplashScreenActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.main.account_drawer.AccountActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.account_drawer.feature.edit_info.EditInfoActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.account_drawer.feature.change_password.ChangePasswordActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.account_drawer.feature.reset_password.ResetPasswordActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.fragment_order.feature.receipt_view.ReceiptActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.account_drawer.feature.sign_up.SignUpActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.fragment_order.feature.quality.QualityActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.fragment_order.feature.create_order.CreateOrderActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.fragment_order.feature.cart_view.ViewOrderActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.fragment_menu.feature.item.item.ItemActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.fragment_menu.feature.category.category.CategoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.fragment_menu.feature.category.edit_category.EditCategoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.fragment_menu.feature.item.edit_item.EditItemActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.sign_in.SignInActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

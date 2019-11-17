@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnAll"
+        android:title="All" />
+    <item
+        android:id="@+id/btnAvailable"
+        android:title="Available" />
+    <item
+        android:id="@+id/btnBooked"
+        android:title="Booked" />
+</menu>

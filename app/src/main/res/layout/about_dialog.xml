@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvAboutUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/card_bg"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lineSpacingExtra="6dp"
+        android:paddingLeft="22dp"
+        android:paddingTop="16dp"
+        android:textColor="@color/cray"
+        android:enabled="false"
+        android:paddingRight="8dp"
+        android:paddingBottom="16dp"
+        android:text='\n\nPoint on Sale System Feature:\n \t- Order: Allow user create order.\n \t- Menu: Allow user has rule "admin" can create your own categories and items.\n \t- Receipt: Allow user can view all receipt detail.\n \t- User: Allow admin rule can control all over the system with feature such as:\n 	\t\t\t* Create Email account and Verification with Gmail\n 	\t\t\t* Edit user information\n 	\t\t\t* Reset password (user can be recover password by send verification password reset to their own gmail account)\n 	\t\t\t* User can change your password (all rule)\n\n Credit by:\n\t\t\t\tOrn reaksmeayrun, student of HRD-Korea Center of 8th Generation Android Short-Course Weekend Class.\n\n\n\n'
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Coffee</string>
+    <string name="alert_add_item_to_cart">\nDo you want to add to cart, are you sure?\n</string>
+    <string name="alert_create_category_new">\nDo you want to create this, are you sure?\n</string>
+    <string name="alert_create_item_new">\nDo you want to create this, are you sure?\n</string>
+    <string name="alert_delete">\nDo you want to delete it, are you sure?\n</string>
+    <string name="alert_close">\nDo you want to close it, are you sure?\n</string>
+    <string name="alert_cart_close">\nYour order will be lose. Do you want to close it,\n are you sure?\n</string>
+    <string name="alert_save">\nDo you want to save this, are you sure?\n</string>
+    <string name="alert_send">\nDo you want to this email, are you sure?\n</string>
+    <string name="alert_sign_out">\nDo you want to sign out, are you sure?\n</string>
+    <string name="alert_pay">\nDo you want to pay now, are you sure?\n</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+</resources>
